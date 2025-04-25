@@ -1,2 +1,75 @@
 /* font link  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* variables start  */
+:root {
+  --primary-color: #000d83;
+  --secondary-color: #0bb4ff;
+  --primary-text-color: #040931b5;
+  --background-color: #e7efff;
+  --sub_heading_font-size: 1.125rem;
+  --heading_font-size: 2.5rem;
+}
+
+/* global style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body style  */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header style  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  padding: 20px 5%;
+}
+
+/* nav-links start  */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.nav-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* menu buttons start  */
+.menu-btn a {
+  padding: 0px 10px;
+  text-decoration: none;
+}
+#sign-up {
+  margin-left: 10px;
+  border: 1px solid var(--primary-color);
+  padding: 5px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+#sign-in:hover {
+     color: var(--secondary-color);
+}
+#sign-up:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
