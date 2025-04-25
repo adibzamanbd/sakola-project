@@ -207,7 +207,7 @@ main {
 .about {
   width: 100%;
   height: 100%;
-  background-color: fff;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -239,13 +239,17 @@ main {
   width: 100%;
   height: 70px;
   max-width: 80%;
+  transition: transform 0.3s ease;
+}
+.about-box:hover {
+  transform: translateY(-20px);
 }
 
 /* school section start  */
 .school {
   width: 100%;
   height: 100%;
-  background-color: fff;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -272,6 +276,55 @@ main {
   text-decoration: none;
 }
 .school-btn a:hover {
-     background-color: transparent;
-     color: var(--primary-text-color);
+  background-color: transparent;
+  color: var(--primary-text-color);
+}
+
+/* courses start  */
+.courses {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5%;
+  gap: 2rem;
+  text-align: center;
+}
+
+/* courses container start  */
+.couses-cont {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.courses-box {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.courses-box img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.courses-box h3 {
+  font-size: 1.2rem;
+  color: #040931;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.courses-box p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.courses-box:hover {
+  transform: translateX(20px);
 }
