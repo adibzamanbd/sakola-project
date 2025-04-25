@@ -328,3 +328,52 @@ main {
 .courses-box:hover {
   transform: translateX(20px);
 }
+.newsletter {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 5% 5%;
+}
+.newsletter-cont {
+  position: relative;
+  height: 500px;
+  background-image: url(../images/news-letter.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.newsletter-cont .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000d83d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.newsletter-cont .text {
+  text-align: center;
+  color: white;
+}
+.newsletter h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.newsletter p {
+  margin-bottom: 30px;
+  color: white;
+}
+.news-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 16px 38px;
+}
