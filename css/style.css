@@ -87,6 +87,7 @@ main {
   width: 100%;
   height: 100%;
   justify-content: center;
+  align-items: center;
   padding: 5% 5%;
   gap: 70px;
 }
@@ -115,6 +116,7 @@ main {
   color: var(--primary-text-color);
   line-height: 1.7;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 /* hero btn start  */
@@ -201,12 +203,6 @@ main {
   font-size: 0.87rem;
   margin-bottom: 10px;
 }
-
-/* hero image start  */
-.hero-img img {
-  width: 110%;
-}
-
 /* about section start  */
 .about {
   width: 100%;
@@ -243,4 +239,39 @@ main {
   width: 100%;
   height: 70px;
   max-width: 80%;
+}
+
+/* school section start  */
+.school {
+  width: 100%;
+  height: 100%;
+  background-color: fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 5%;
+  gap: 6rem;
+}
+
+/* school button start  */
+.school-btn {
+  margin: 24px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+}
+.school-btn a {
+  padding: 16px 38px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+.school-btn a:hover {
+     background-color: transparent;
+     color: var(--primary-text-color);
 }
