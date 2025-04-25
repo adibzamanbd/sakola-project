@@ -1,0 +1,51 @@
+/* tablet device  */
+@media (max-width: 786px) {
+  .nav-links {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 100%;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .school {
+    flex-direction: column;
+    align-items: center;
+  }
+  .couses-cont {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .footer-cont {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: flex-start;
+    gap: 2.5rem;
+  }
+}
+/* mobile large device  */
+@media (max-width: 480px) {
+  .menu-btn a {
+    display: none;
+  }
+  .hero-btn {
+    flex-direction: column;
+  }
+  .couses-cont {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .footer-cont {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: flex-start;
+    gap: 2.5rem;
+  }
+}

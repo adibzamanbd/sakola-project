@@ -98,6 +98,10 @@ main {
   height: 100%;
 }
 
+/* hero image start  */
+.hero-img img {
+  width: 110%;
+}
 /* hero text sub heading start  */
 #sub-title {
   font-size: 18px;
@@ -203,6 +207,7 @@ main {
   font-size: 0.87rem;
   margin-bottom: 10px;
 }
+
 /* about section start  */
 .about {
   width: 100%;
@@ -241,6 +246,9 @@ main {
   max-width: 80%;
   transition: transform 0.3s ease;
 }
+.about-box h3{
+     margin-left: 20px;
+   }
 .about-box:hover {
   transform: translateY(-20px);
 }
@@ -256,13 +264,15 @@ main {
   padding: 5% 5%;
   gap: 6rem;
 }
-
+.school-text {
+     width: 80%;
+}
 /* school button start  */
 .school-btn {
   margin: 24px 0;
   display: inline-flex;
   align-items: center;
-  gap: 2rem;
+  gap: 10px;
 }
 .school-btn a {
   padding: 16px 38px;
@@ -280,6 +290,10 @@ main {
   color: var(--primary-text-color);
 }
 
+/* school image start  */
+.school-img img {
+  width: 100%;
+}
 /* courses start  */
 .courses {
   width: 100%;
